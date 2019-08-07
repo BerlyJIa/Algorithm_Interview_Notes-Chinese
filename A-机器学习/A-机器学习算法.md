@@ -185,7 +185,7 @@
     [![](../_assets/公式_20180713132107.png)](http://www.codecogs.com/eqnedit.php?latex=\begin{aligned}&space;\frac{\partial&space;L(w)}{\partial&space;w}&=-\sum_{i=1}^N&space;\left&space;[&space;y_ix_i-\frac{\exp(wx_i)}{1&plus;\exp(wx_i)}x_i&space;\right&space;]\\&space;&=\sum_{i=1}^N&space;[\sigma&space;(x_i)-y_i]x_i&space;\end{aligned})
 4. 使用**梯度下降法**求解参数
     > 深度学习/[梯度下降法](../深度学习/README.md#梯度下降法)
-
+    > 深度学习2/[梯度下降法](../A-深度学习/C-专题-优化算法.md#梯度下降)
 ## 多分类逻辑斯蒂回归模型 TODO
 - 设 `Y ∈ {1,2,..K}`，则多项式逻辑斯蒂回归模型为：
 
