@@ -45,6 +45,12 @@ Index
 
 ### 偏差/方差 与 Boosting/Bagging
 > ./集成学习专题/[Boosting/Bagging 与 偏差/方差 的关系](./C-专题-集成学习#boostingbagging-与-偏差方差-的关系)
+### Bagging
+- Bagging是bootstrap aggregation的简写。一种减少估计方差的方法是平均多个估计，我们可以随机抽取（有放回）数据集里的样本，训练一个学习器，重复抽取M次，训练得到M个baselearner，这种有放回的抽样方法叫做bootstrapsampling，对于分类任务用投票的方法集成，对于回归任务用取平均的方法。
+
+### Boosting
+- Boosting是指能够将弱学习器转化为强学习器的一类算法。Boosting的主要原则是用一系列仅比随机猜测稍微好一些的弱学习器模型（如小决策树）来拟合加权版本的数据。被前一个学习器分类错误的样本会被给予更高的权重。然后通过加权多数表决（分类任务）或加权求和和（回归任务）来产生最终预测。以下的算法描述的是被最广泛使用的boosting方法，Adaboosting算法，即adaptiveboosting
+
 
 ### 偏差与方差的计算公式
 - 记在**训练集 D** 上学得的模型为
