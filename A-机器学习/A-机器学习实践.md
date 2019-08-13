@@ -202,11 +202,11 @@ Index
 
 
 ## 数据清洗与特征处理
-> geekcircle/machine-learning-interview-qa/[8.md](https://github.com/geekcircle/machine-learning-interview-qa/blob/master/questions/8.md)
+>数据分析中篇（数据清洗&特征处理常见手法）(https://blog.csdn.net/patrisk/article/details/81412052)
 
 <!-- <div align="center"><img src="../_assets/数据清洗与特征处理.jpg" height="" /></div> -->
 
-> [机器学习中的数据清洗与特征处理综述](https://tech.meituan.com/machinelearning-data-feature-process.html) - 美团点评技术
+> [机器学习中的数据清洗与特征处理综述](http://www.dataguru.cn/article-9950-1.html) - 美团点评技术
 
 ## 关联规则挖掘的 3 个度量指标：支持度、置信度、提升度
 
